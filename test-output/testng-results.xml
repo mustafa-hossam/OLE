@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8943" started-at="2021-05-23T21:01:33 EET" finished-at="2021-05-23T21:01:42 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8943" started-at="2021-05-23T21:01:33 EET" finished-at="2021-05-23T21:01:42 EET">
+      <class name="hrm.login">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:hrm.login@5faeada1]" name="beforeMethod" is-config="true" duration-ms="5590" started-at="2021-05-23T21:01:33 EET" finished-at="2021-05-23T21:01:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAdminLogin()[pri:0, instance:hrm.login@5faeada1]" name="verifyAdminLogin" duration-ms="2682" started-at="2021-05-23T21:01:38 EET" finished-at="2021-05-23T21:01:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:hrm.login@5faeada1]" name="afterClass" is-config="true" duration-ms="636" started-at="2021-05-23T21:01:41 EET" finished-at="2021-05-23T21:01:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- hrm.login -->
+      <class name="hrm.UserManagment">
+        <test-method status="PASS" signature="f()[pri:0, instance:hrm.UserManagment@58c1670b]" name="f" duration-ms="1" started-at="2021-05-23T21:01:42 EET" finished-at="2021-05-23T21:01:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- hrm.UserManagment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
